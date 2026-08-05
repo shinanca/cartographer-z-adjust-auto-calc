@@ -20,6 +20,7 @@ After calculation macro will print table:
 ...
 | 210C  | 0.0183
 ...
+```
 
 Add to slicer in filament g-code:
 ```
