@@ -28,7 +28,7 @@ Add to slicer in filament g-code:
 SET_GCODE_OFFSET Z_ADJUST=+0.54
 ```
 
-You can change in z_adjust.cfg macro TEMP_OFFSET variable_coefficient, then add to START_PRINT macro or in filament g-code:
+You can change in z_adjust.cfg macro TEMP_OFFSET variable_coefficient, then add to START_PRINT macro, after CARTOGRPAHER_TOUCH_HOME or in filament g-code:
 
 For PrusaSlicer/SuperSlicer:
 ```
