@@ -12,10 +12,10 @@ On plate and nozzle at room temp
 ```
 CARTOGRAPHER_AUTO_Z_ADJUST_CALC
 ```
-Change value in OFFSET_TEMP Macro: variable_coeficient: 0.009
 After calculation macro will print table:
 
 ```
+Change value in OFFSET_TEMP Macro: variable_coeficient: 0.009
 | Temp  | Z-Adjust
 ----------------------------------------
 ...
@@ -29,6 +29,7 @@ SET_GCODE_OFFSET Z_ADJUST=+0.54
 ```
 
 You can change in z_adjust.cfg macro TEMP_OFFSET variable_coeficient, then add to START_PRINT macro or in filament g-code:
+
 For PrusaSlicer/SuperSlicer:
 ```
 OFFSET_TEMP TEMP={first_layer_temperature[0]}
